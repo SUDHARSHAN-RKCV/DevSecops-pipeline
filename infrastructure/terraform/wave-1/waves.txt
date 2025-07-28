@@ -1,0 +1,7 @@
+infrastructure/
+└── terraform/
+    ├── wave-1      auth  # Auth microservice infra (EC2, SG, IAM, etc.)
+    ├── wave-2      frontend # UI layer infra
+    ├── wave-3      network  # VPC, Subnets, Routing
+    ├── wave-4      database   # RDS or DynamoDB
+    ├── wave-5      patching     # Patch mgmt using SSM or AMI rollout
